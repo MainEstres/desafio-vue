@@ -4,7 +4,7 @@
   let nombre = "Rick";
   let nacionalidad = "X";
   let sexo = "M";
-  let FdN = "04 de Marzo 2000";
+  let fechaNacimiento = "04 de Marzo 2000";
   let numeroDeDocumento = "214.658.652";
   let fechaEmision = "32 de Abril 4053";
   let fechaVencimiento = "40 de Marzo 5004";
@@ -18,7 +18,7 @@
           <img width="40" src="/public/chile_bandera.png" alt="" />
         </div>
 
-        <img src="/public/foto_elon.jpg" alt="" />
+        <img src="public\homero.png" alt="" />
         <p>RUN {{ rut }}</p>
       </aside>
 
@@ -50,7 +50,7 @@
           <div class="grid-2-colums">
             <article>
               <header>FECHA DE NACIMIENTO</header>
-              <span>{{ FdN }} </span>
+              <span>{{ fechaNacimiento }} </span>
             </article>
             <article>
               <header>NÙMERO DOCUMENTO</header>
