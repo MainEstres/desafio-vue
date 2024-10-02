@@ -1,7 +1,6 @@
 <script setup>
-
-  import banderaChile  from "./img/chile-bandera.png";
-  import homero from "./img/homero.png";
+import homero from "./img/homero.png";
+import banderaChile from "./img/chile_bandera.png";
 
   let rut = "33.555.777.k";
   let apellidoss = "Sanchez";
