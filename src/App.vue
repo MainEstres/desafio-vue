@@ -1,4 +1,8 @@
 <script setup>
+
+  import banderaChile  from "./img/chile-bandera.png";
+  import homero from "./img/homero.png";
+
   let rut = "33.555.777.k";
   let apellidoss = "Sanchez";
   let nombre = "Rick";
@@ -15,10 +19,10 @@
       <aside>
         <div>
           <span>CEDULA DE INDENTIDAD</span>
-          <img width="40" src="/src/img/chile_bandera.png" alt="" />
+          <img width="40" :src="banderaChile" alt="" />
         </div>
 
-        <img src="/src/img/homero.png" alt="" />
+        <img :src="homero" alt="" />
         <p>RUN {{ rut }}</p>
       </aside>
 
