@@ -2,7 +2,7 @@
   let rut = "33.555.777.k";
   let apellidoss = "Sanchez";
   let nombre = "Rick";
-  let nacionalidad = "X";
+  let nacionalidad = "Peruana";
   let sexo = "M";
   let fechaNacimiento = "04 de Marzo 2000";
   let numeroDeDocumento = "214.658.652";
@@ -15,10 +15,10 @@
       <aside>
         <div>
           <span>CEDULA DE INDENTIDAD</span>
-          <img width="40" src="/public/chile_bandera.png" alt="" />
+          <img width="40" src="/src/img/chile_bandera.png" alt="" />
         </div>
 
-        <img src="public\homero.png" alt="" />
+        <img src="/src/img/homero.png" alt="" />
         <p>RUN {{ rut }}</p>
       </aside>
 
